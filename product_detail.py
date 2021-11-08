@@ -30,8 +30,8 @@ def extract_page(x):
 
         r = requests.request("GET", url, data=payload, headers=headers, params=querystring,
                              proxies={
-                                 "http": "http://ebruryry-rotate:hoxx9vrnwaq4@p.webshare.io:80/",
-                                 "https": "http://ebruryry-rotate:hoxx9vrnwaq4@p.webshare.io:80/"
+                                 "http": "Enter proxy here",
+                                 "https": "Enter proxy here"
                              }
                              )
 
